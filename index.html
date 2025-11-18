@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TMC Products</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    /* Custom Tailwind Configuration to use Poppins as the primary font and set a dark theme */
+    :root {
+      font-family: 'Poppins', sans-serif;
+    }
+    .custom-gradient {
+      /* Recreating your original hero gradient with a cleaner approach */
+      background: linear-gradient(90deg, #0a0a0a 0%, #111 100%);
+    }
+  </style>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            // Define a custom, earthy green accent color
+            'primary-green': '#00cc66', 
+            'dark-bg': '#0a0a0a',
+          },
+          fontFamily: {
+            sans: ['Poppins', 'sans-serif'],
+          },
+        }
+      }
+    }
+  </script>
+</head>
+<body class="bg-white-950 text-white min-h-screen">
+
+  <header class="bg-white-900/95 shadow-2xl backdrop-blur-sm sticky top-0 z-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex flex-col md:flex-row justify-between items-center">
+      <h1 class="text-3xl font-extrabold tracking-tight text-primary-green transition duration-300 hover:text-emerald-400">
+        TMC Products
+      </h1>
+      <nav class="flex space-x-6 mt-4 md:mt-0">
+        <a href="#home" class="text-gray-300 hover:text-primary-green font-medium transition duration-300 text-lg">Home</a>
+        <a href="shop.html" class="text-gray-300 hover:text-primary-green font-medium transition duration-300 text-lg">Products</a>
+        <a href="#contact" class="text-gray-300 hover:text-primary-green font-medium transition duration-300 text-lg">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="min-h-screen flex items-center bg-dark-bg custom-gradient pt-24 pb-12 lg:pt-32" id="home">
+      <div class="max-w-7xl mx-auto px-6 lg:px-8 flex flex-col lg:flex-row items-center justify-between gap-12">
+        
+        <div class="lg:w-1/2 text-center lg:text-left">
+    <span class="text-lg font-semibold text-primary-green uppercase tracking-wider block mb-2">Clean Homes, Happy Earth</span>
+    <h2 class="text-5xl md:text-6xl font-extrabold leading-tight mb-6 text-white">
+        Experience <span class="text-primary-green">The</span> Difference
+    </h2>
+    <p class="text-xl text-gray-300 mb-8">
+        Discover TMC Products' range of powerful dishwashing liquids and soaps. High-performance, eco-friendly formulas for a sparkling clean home.
+    </p>
+
+    <ul class="text-xl text-gray-300 mb-8 grid grid-cols-1 md:grid-cols-2 gap-y-2 lg:text-left text-left">
+        <li class="flex items-center">
+            <svg class="h-6 w-6 text-primary-green mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
+            </svg>
+            TMC Think Bleach
+        </li>
+        <li class="flex items-center">
+            <svg class="h-6 w-6 text-primary-green mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
+            </svg>
+            TMC All Purpose Cream
+        </li>
+        <li class="flex items-center">
+            <svg class="h-6 w-6 text-primary-green mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
+            </svg>
+            TMC Pine Gel
+        </li>
+        <li class="flex items-center">
+            <svg class="h-6 w-6 text-primary-green mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
+            </svg>
+            TMC Floor Cleaner
+        </li>
+        <li class="flex items-center">
+            <svg class="h-6 w-6 text-primary-green mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
+            </svg>
+            TMC Window Cleaner
+        </li>
+        <li class="flex items-center">
+            <svg class="h-6 w-6 text-primary-green mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
+            </svg>
+            TMC Fabric Soften
+        </li>
+        <li class="flex items-center">
+            <svg class="h-6 w-6 text-primary-green mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
+            </svg>
+            TMC Washing Powder
+        </li>
+        <li class="flex items-center">
+            <svg class="h-6 w-6 text-primary-green mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
+            </svg>
+            TMC Toilet Paper
+        </li>
+        <li class="flex items-center">
+            <svg class="h-6 w-6 text-primary-green mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
+            </svg>
+            TMC Dishwashing liquid
+        </li>
+    </ul>
+    <a href="shop.html" class="inline-block bg-primary-green text-gray-900 font-bold py-3 px-8 rounded-full shadow-xl hover:bg-emerald-400 transition duration-300 transform hover:scale-105">
+        Explore Our Range
+    </a>
+</div>
+
+        <div class="lg:w-1/2">
+  <div class="w-full h-56 md:h-72 lg:h-[380px] overflow-hidden rounded-2xl shadow-2xl shadow-primary-green/50 border-4 border-primary-green/20">
+    <img 
+      src="item1.jpeg" 
+      alt="Dishwashing liquid and cleaning products"
+      class="w-full h-full object-cover"
+      onerror="this.onerror=null;this.src='https://placehold.co/500x350/00cc66/ffffff?text=Cleaning+Products'">
+  </div>
+</div>
+
+      </div>
+    </section>
+
+    <section class="py-20 bg-white-950" id="products">
+    <div class="max-w-7xl mx-auto px-6 lg:px-8">
+        <h2 class="text-4xl font-extrabold text-center text-primary-green mb-12">Our High-Performance Cleaning Solutions</h2>
+        
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+            
+            <div class="product-card group bg-gray-900 p-5 rounded-xl shadow-lg transition duration-300 hover:scale-[1.03] hover:shadow-2xl hover:shadow-primary-green/40">
+                <img 
+                    src="item2.jpeg" 
+                    alt="Dishwashing Liquid Ultra" 
+                    class="w-full h-48 object-cover rounded-lg mb-4 transform group-hover:rotate-1 transition duration-300"
+                    onerror="this.onerror=null;this.src='https://placehold.co/600x400/10b981/ffffff?text=Dish+Liquid+1'"
+                >
+                <h3 class="text-xl font-bold text-white mb-2">TMC Dish Liquid Ultra</h3>
+                <p class="text-gray-400 mb-4 text-sm">Cuts through tough grease instantly. Gentle lemon fragrance and long-lasting suds.</p>
+                <button 
+                    class="view-details-btn mt-4 w-full bg-primary-green hover:bg-green-700 text-gray-900 font-bold py-2 px-4 rounded-lg transition duration-300"
+                    data-modal-target="product-modal"
+                    data-product-name="TMC Dish Liquid Ultra"
+                    data-details="**Power:** Maximum grease-cutting power, ideal for baked-on food and heavy pots. **Formula:** Concentrated, pH-neutral formula that is gentle on skin. **Fragrance:** Zesty Lemon. **Usage:** One teaspoon per sink load is sufficient for a sparkling clean."
+                >
+                    View More Details
+                </button>
+            </div>
+
+            <div class="product-card group bg-gray-900 p-5 rounded-xl shadow-lg transition duration-300 hover:scale-[1.03] hover:shadow-2xl hover:shadow-primary-green/40">
+                <img 
+                    src="item3.jpeg" 
+                    alt="Anti-Bacterial Hand Soap" 
+                    class="w-full h-48 object-cover rounded-lg mb-4 transform group-hover:rotate-1 transition duration-300"
+                    onerror="this.onerror=null;this.src='https://placehold.co/600x400/065f46/ffffff?text=Hand+Soap+2'"
+                >
+                <h3 class="text-xl font-bold text-white mb-2">TMC Anti-Bacterial Hand Wash</h3>
+                <p class="text-gray-400 mb-4 text-sm">Kills 99.9% of germs while keeping hands moisturized and soft. Refreshing scent.</p>
+                <button 
+                    class="view-details-btn mt-4 w-full bg-primary-green hover:bg-green-700 text-gray-900 font-bold py-2 px-4 rounded-lg transition duration-300"
+                    data-modal-target="product-modal"
+                    data-product-name="TMC Anti-Bacterial Hand Wash"
+                    data-details="**Action:** Provides effective defense against harmful bacteria. **Ingredients:** Enriched with Aloe Vera to prevent dryness from frequent washing. **Usage:** Lather for 20 seconds, rinse thoroughly. Suitable for kitchen and bathroom use."
+                >
+                    View More Details
+                </button>
+            </div>
+
+            <div class="product-card group bg-gray-900 p-5 rounded-xl shadow-lg transition duration-300 hover:scale-[1.03] hover:shadow-2xl hover:shadow-primary-green/40">
+                <img 
+                    src="item4.jpeg" 
+                    alt="Eco-Friendly Dishwashing Liquid" 
+                    class="w-full h-48 object-cover rounded-lg mb-4 transform group-hover:rotate-1 transition duration-300"
+                    onerror="this.onerror=null;this.src='https://placehold.co/600x400/34d399/ffffff?text=Dish+Liquid+3'"
+                >
+                <h3 class="text-xl font-bold text-white mb-2">TMC Eco-Clean Dish Soap</h3>
+                <p class="text-gray-400 mb-4 text-sm">Biodegradable and non-toxic formula for those who prioritize the environment.</p>
+                <button 
+                    class="view-details-btn mt-4 w-full bg-primary-green hover:bg-green-700 text-gray-900 font-bold py-2 px-4 rounded-lg transition duration-300"
+                    data-modal-target="product-modal"
+                    data-product-name="TMC Eco-Clean Dish Soap"
+                    data-details="**Commitment:** 100% plant-derived cleaning agents. No harsh chemicals or dyes. **Environmental:** Safe for septic tanks and waterways. **Packaging:** Made with recycled plastic. **Available:** Lavender or Fragrance-Free."
+                >
+                    View More Details
+                </button>
+            </div>
+
+             <div class="product-card group bg-gray-900 p-5 rounded-xl shadow-lg transition duration-300 hover:scale-[1.03] hover:shadow-2xl hover:shadow-primary-green/40">
+    <img 
+        src="item5.jpeg" 
+        alt="Bar Soap Multi-Pack" 
+        class="w-full h-48 object-cover rounded-lg mb-4 transform group-hover:rotate-1 transition duration-300"
+        onerror="this.onerror=null;this.src='https://placehold.co/600x400/34d399/ffffff?text=Bar+Soap+4'"
+    >
+    <h3 class="text-xl font-bold text-white mb-2">TMC Value Bar Soap</h3>
+    <p class="text-gray-400 mb-4 text-sm">Long-lasting, multi-purpose soap ideal for general cleaning and laundry pre-treatment.</p>
+    <button 
+        class="view-details-btn mt-4 w-full bg-primary-green hover:bg-green-700 text-gray-900 font-bold py-2 px-4 rounded-lg transition duration-300"
+        data-modal-target="product-modal"
+        data-product-name="TMC Value Bar Soap - Details"
+        data-details="
+            <h4 class='text-xl font-semibold text-white mb-4'>Key Features:</h4>
+            <div class='grid grid-cols-2 gap-x-6 gap-y-2 text-sm'>
+                <ul class='list-none space-y-2'>
+                    <li class='flex items-start'><span class='text-primary-green mr-2'>&#10003;</span> Excellent Laundry Pre-Treater</li>
+                    <li class='flex items-start'><span class='text-primary-green mr-2'>&#10003;</span> Tough on Stains and Dirt</li>
+                    <li class='flex items-start'><span class='text-primary-green mr-2'>&#10003;</span> Rich Lather for Hand Washing</li>
+                    <li class='flex items-start'><span class='text-primary-green mr-2'>&#10003;</span> Economical Multi-Pack</li>
+                </ul>
+                <ul class='list-none space-y-2'>
+                    <li class='flex items-start'><span class='text-primary-green mr-2'>&#10003;</span> Mild, Clean Scent</li>
+                    <li class='flex items-start'><span class='text-primary-green mr-2'>&#10003;</span> Long-Lasting Bar</li>
+                    <li class='flex items-start'><span class='text-primary-green mr-2'>&#10003;</span> Multi-Surface Cleaning</li>
+                    <li class='flex items-start'><span class='text-primary-green mr-2'>&#10003;</span> Dermatologically Tested</li>
+                </ul>
+            </div>
+            <p class='mt-4'>**Note:** Available in 4-packs and 8-packs.</p>
+        "
+    >
+        View More Details
+    </button>
+</div>
+            
+        </div>
+    </div>
+
+    <div id="product-modal" class="fixed inset-0 z-50 hidden items-center justify-center bg-black bg-opacity-80 transition-opacity duration-300" aria-labelledby="modal-title" role="dialog" aria-modal="true">
+        <div class="bg-gray-900 rounded-xl p-8 w-11/12 max-w-lg shadow-2xl transform scale-100 transition-all duration-300">
+            <div class="flex justify-between items-start mb-4">
+                <h3 id="modal-title" class="text-2xl font-bold text-primary-green">Product Details</h3>
+                <button id="close-modal-btn" class="text-gray-400 hover:text-white transition-colors duration-200">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
+                </button>
+            </div>
+            <div id="modal-content" class="text-gray-300 space-y-3">
+                <p>Loading...</p>
+            </div>
+        </div>
+    </div>
+</section>
+    <section id="about" class="py-20 bg-gray-900">
+  <div class="max-w-7xl mx-auto px-6 lg:px-8 flex flex-col lg:flex-row items-center gap-12">
+
+    <div class="lg:w-1/2">
+      <div class="w-full h-64 md:h-80 lg:h-[360px] overflow-hidden rounded-2xl shadow-2xl shadow-primary-green/40 border border-primary-green/20">
+        <img 
+          src="item6.jpeg" 
+          alt="TMC Products soap and cleaning solutions" 
+          class="w-full h-full object-cover"
+          onerror="this.onerror=null;this.src='https://placehold.co/600x400/00cc66/ffffff?text=About+Us+Cleaning'">
+      </div>
+    </div>
+
+    <div class="lg:w-1/2 text-center lg:text-left">
+      <span class="text-primary-green text-lg font-semibold tracking-wide uppercase">Our Promise</span>
+
+      <h2 class="text-4xl md:text-5xl font-extrabold text-white mt-2 mb-6 leading-tight">
+        Trusted Power,<br> Exceptional Value
+      </h2>
+
+      <p class="text-gray-300 text-lg leading-relaxed">
+        TMC Products is a proudly South African brand specializing in high-quality cleaning solutions, with a focus on superior cleaning products and toilet papers.
+         Based in Pretoria, we are committed to providing powerful,
+          yet value-driven products that make your home cleaner and brighter, 
+          without compromising on quality or kindness to your skin
+      </p>
+    </div>
+
+  </div>
+</section>
+
+
+  </main>
+
+  <footer id="contact" class="bg-gray-900 py-12 mt-16 border-t border-gray-800">
+  <div class="max-w-7xl mx-auto px-6 lg:px-8 grid grid-cols-1 md:grid-cols-3 gap-10 text-center md:text-left">
+
+    <div>
+      <h3 class="text-2xl font-bold text-primary-green mb-4">TMC Products</h3>
+      <p class="text-gray-400 leading-relaxed text-sm">
+        High-performance, value-driven cleaning solutions for your home and business.
+      </p>
+    </div>
+
+    <div>
+      <h4 class="text-xl font-semibold text-white mb-4">Contact Us</h4>
+      <p class="text-gray-300"><i class="fa-solid fa-phone text-primary-green mr-2"></i> 
+        <a href="tel:+27817346319" class="hover:text-primary-green">+27 81 734 6319</a>
+      </p>
+      <p class="text-gray-300 mt-2"><i class="fa-solid fa-envelope text-primary-green mr-2"></i> 
+        <a href="mailto:Info@tmcproducts.co.za" class="hover:text-primary-green">Info@tmcproducts.co.za</a>
+      </p>
+      <p class="text-gray-300 mt-2"><i class="fa-solid fa-location-dot text-primary-green mr-2"></i> 
+        Gauteng,South Africa
+      </p>
+    </div>
+
+
+    <div>
+      <h4 class="text-xl font-semibold text-white mb-4">Follow Us</h4>
+      <div class="flex justify-center md:justify-start space-x-6 text-3xl">
+
+        <a href="#" class="text-gray-300 hover:text-primary-green transition">
+          <i class="fa-brands fa-facebook"></i>
+        </a>
+
+        <a href="#" class="text-gray-300 hover:text-primary-green transition">
+          <i class="fa-brands fa-instagram"></i>
+        </a>
+
+        <a href="#" class="text-gray-300 hover:text-primary-green transition">
+          <i class="fa-brands fa-tiktok"></i>
+        </a>
+
+        <a href="https://wa.me/27817346319" target="_blank" class="text-gray-300 hover:text-primary-green transition">
+          <i class="fa-brands fa-whatsapp"></i>
+        </a>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="text-center mt-10 border-t border-gray-800 pt-6">
+    <p class="text-gray-500 text-sm">&copy; 2025 TMC Products. All rights reserved.</p>
+  </div>
+</footer>
+
+
+  <a href="https://wa.me/27817346319" 
+   target="_blank" 
+   class="fixed bottom-6 right-6 z-40 bg-[#25D366] p-4 rounded-full shadow-2xl 
+          transition duration-300 transform hover:scale-110 hover:shadow-primary-green/50">
+    <i class="fa-brands fa-whatsapp text-white text-3xl"></i>
+</a>
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+        const modal = document.getElementById('product-modal');
+        const modalTitle = document.getElementById('modal-title');
+        const modalContent = document.getElementById('modal-content');
+        const closeModalBtn = document.getElementById('close-modal-btn');
+        const detailButtons = document.querySelectorAll('.view-details-btn');
+
+        // Function to open the modal
+        const openModal = (name, detailsHtml) => {
+            modalTitle.textContent = name;
+            modalContent.innerHTML = detailsHtml;
+            modal.classList.remove('hidden');
+            modal.classList.add('flex');
+            document.body.style.overflow = 'hidden'; // Prevent background scrolling
+        };
+
+        // Function to close the modal
+        const closeModal = () => {
+            modal.classList.add('hidden');
+            modal.classList.remove('flex');
+            document.body.style.overflow = ''; // Restore background scrolling
+        };
+
+        // Event listener for all "View More Details" buttons
+        detailButtons.forEach(button => {
+            button.addEventListener('click', (event) => {
+                const productName = event.currentTarget.getAttribute('data-product-name');
+                const productDetails = event.currentTarget.getAttribute('data-details');
+                
+                // Replace markdown-style bolding with HTML for display
+                const formattedDetails = productDetails.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
+                
+                openModal(productName, formattedDetails);
+            });
+        });
+
+        // Event listener to close modal via button
+        closeModalBtn.addEventListener('click', closeModal);
+
+        // Event listener to close modal when clicking outside (on the overlay)
+        modal.addEventListener('click', (event) => {
+            if (event.target === modal) {
+                closeModal();
+            }
+        });
+
+        // Event listener to close modal with the ESC key
+        document.addEventListener('keydown', (event) => {
+            if (event.key === 'Escape' && !modal.classList.contains('hidden')) {
+                closeModal();
+            }
+        });
+    });
+</script>
+</body>
+</html>
